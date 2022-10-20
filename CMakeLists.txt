@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+project(STL)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(STL 1.1vector容器存放内置数据.cpp 1.2vector存放自定义数据类型.cpp 1.3vector嵌套容器.cpp 2.1string的容器-构造函数.cpp 2.2string赋值操作.cpp 2.3String字符串拼接.cpp 2.4string查找和替换.cpp 2.5string字符串的比较.cpp 2,6string字符串存取.cpp 2.6string字符串存取.cpp 2.7string插入和删除.cpp 2.8string子窜.cpp 3.1vector容器构造函数.cpp 3.2vector赋值操作.cpp 3.3vector容量和大小.cpp 3.4vector插入和删除.cpp 3.5vector数据存取.cpp 水仙花.cpp vector元素交换.cpp 3.6vector互换容器.cpp 3.7vector预留空间.cpp 4.1deque容器.cpp 4.2deque赋值操作.cpp "4.3 deque大小操作.cpp" "4.4deque 插入和删除.cpp" 4.5deque数据存取.cpp 4.6deque排序.cpp "5.0案列 评委打分.cpp" 6.1stack容器.cpp 7.1queue容器.cpp 8.1list容器.cpp 8.2list容器的赋值和交换.cpp 8.3list大小操作.cpp 8.4lisit的插入和删除.cpp 8.5list的数据存取.cpp 8.6list容器的反转和排序.cpp 8.7list排序案列.cpp 9.1set和multiset容器.cpp 9.2set大小和交换.cpp 9.3set插入和删除.cpp 9.4set查找和统计.cpp 9.5set和multiset区别.cpp 9.7pair对组创建.cpp 9.8set容器排序.cpp 10.1map构造和赋值.cpp 10.2map大小和交换.cpp 10.3map插入和删除.cpp 10.4map查找和统计.cpp 10.6map容器排序.cpp 10.7员工案列.cpp 11.1函数对象基本使用.cpp 11.2一元谓词概念.cpp 11.3二元谓词概念.cpp 11.4内建函数对象_算术仿函数.cpp 11.5内建函数对象_关系仿函数.cpp 11.6内建函数对象_逻辑仿函数.cpp 12.1STL-常用遍历算法_for_each.cpp 12.2常用的遍历算法_transform.cpp 13.1常用的查找算法_if.cpp 13.2常用查找算法_find_if.cpp 13.3常用查找算法_adjacent_find.cpp 13.4常用查找算法_binary_search.cpp 13.5常用查找算法_cout.cpp 13.6常用查找算法_count_if.cpp 13.7常用排序算法_sort.cpp)
